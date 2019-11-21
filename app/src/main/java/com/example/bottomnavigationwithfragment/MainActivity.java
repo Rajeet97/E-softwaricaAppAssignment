@@ -30,23 +30,6 @@ public class MainActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_main);
 
-//        try {
-//
-//            Intent intent = getIntent();
-//            final List<Student> studentsl = (List<Student>)intent.getSerializableExtra("studentlist");
-//
-//            for(Student student:studentsl) {
-//                Log.d("Name :",student.getFullname());
-//                Log.d("Age : ",student.getAge());
-//                Log.d("Address :",student.getAddress());
-//                Log.d("Gender :",student.getGender());
-//
-//            }
-//
-//        } catch(Exception e) {
-//            e.printStackTrace();
-//        }
-
         BottomNavigationView navView = findViewById(R.id.nav_view);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
