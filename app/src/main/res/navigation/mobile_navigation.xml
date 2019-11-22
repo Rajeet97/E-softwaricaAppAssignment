@@ -21,7 +21,7 @@
         android:id="@+id/navigation_addstudent"
         android:name="com.example.bottomnavigationwithfragment.ui.addstudents.AddStudentsFragment"
         android:label="@string/title_addstudent"
-        tools:layout="@layout/add_students_fragment" />
+        tools:layout="@layout/students_fragment" />
 
 <!--    <fragment-->
 <!--        android:id="@+id/navigation_notifications"-->
