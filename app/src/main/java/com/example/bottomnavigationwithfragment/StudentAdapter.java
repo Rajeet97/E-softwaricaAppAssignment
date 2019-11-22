@@ -43,22 +43,20 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.MyHolder
         holder.age.setText(stu.getAge());
         holder.address.setText(stu.getAddress());
         holder.gender.setText(stu.getGender());
-//        holder.delete.setImageResource(R.drawable.ic_delete);
-        holder.imageview.setImageDrawable(contexts.getResources().getDrawable(R.drawable.ic_delete));
+        holder.delete.setImageDrawable(contexts.getResources().getDrawable(R.drawable.ic_delete));
 
         String gen= stu.getGender();
 
         if(gen=="Male"){
-            holder.imageview.setImageResource(R.drawable.man);
-//            holder.imageview.setImageDrawable(context.getResources().getDrawable(R.drawable.man));
+            holder.imageview.setImageResource(R.drawable.boy);
 
         }
         else if(gen=="Female"){
-            holder.imageview.setImageDrawable(contexts.getResources().getDrawable(R.drawable.woman));
+            holder.imageview.setImageDrawable(contexts.getResources().getDrawable(R.drawable.girl));
 
         }
         else{
-            holder.imageview.setImageDrawable(contexts.getResources().getDrawable(R.drawable.woman));
+            holder.imageview.setImageDrawable(contexts.getResources().getDrawable(R.drawable.girl));
 
 
         }
